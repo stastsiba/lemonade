@@ -12,7 +12,7 @@ let firstPlace,
 // решить задание 2-мя способами: if, switch...case
 
 firstPlace = prompt ('Укажите место которое желаете забронировать?');
-    secondPlace = +firstPlace + 1;
+    
 
 
     // if (firstPlace >= 20 && firstPlace <= 30){
@@ -31,7 +31,7 @@ firstPlace = prompt ('Укажите место которое желаете з
     // }else {
     //      alert('WARNING!!!')
     // }
-
+secondPlace = +firstPlace + 1;
    switch(true){
         case firstPlace == '':
            alert('Вы не выбрали место');
